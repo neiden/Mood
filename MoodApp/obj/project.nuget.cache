@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GwpGwWizWVpPI7VCEy6nOXQ07ZJRx46EWV46AITUV8r78x/rSKdPUeAWCKLMTc47J+f6Ljn+lkSGgjF2iNVfyQ==",
+  "dgSpecHash": "A+jhWSNm126ulpiYg/XvvS2yX/10sEtUnj9NuR5sou8xK+2cPH9rk6U8apFa7BakFK+PrsaZ2Cyow5WIi3yi8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pinkgodzilla\\Documents\\MoodAppV2\\MoodApp\\MoodApp.csproj",
+  "projectFilePath": "C:\\Users\\Pinkgodzilla\\Documents\\MoodAppv2\\MoodApp\\MoodApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pinkgodzilla\\.nuget\\packages\\auth0.aspnetcore.authentication\\1.3.1\\auth0.aspnetcore.authentication.1.3.1.nupkg.sha512",
     "C:\\Users\\Pinkgodzilla\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",

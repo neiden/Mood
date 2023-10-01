@@ -23,6 +23,7 @@ builder.Services.AddRazorPages(options =>
 {
     options.Conventions.AuthorizePage("/Users");
     options.Conventions.AuthorizePage("/Account/Logout");
+    options.Conventions.AuthorizePage("/Account/Profile");
 });
 
 var app = builder.Build();

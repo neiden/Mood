@@ -35,6 +35,11 @@
                                 <a class="nav-link text-dark" asp-area="" asp-page="/Users/Index">Users</a>
                             </li>
                         </ul>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-page="/Account/Profile">Hello
+                                @User.Identity.Name!</a>
+                        </li>
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
                                 <a class="nav-link text-dark display-6" asp-area="" asp-page="/Account/Logout">Logout</a>

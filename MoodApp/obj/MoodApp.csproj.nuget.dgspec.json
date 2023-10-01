@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pinkgodzilla\\Documents\\MoodAppV2\\MoodApp\\MoodApp.csproj": {}
+    "C:\\Users\\Pinkgodzilla\\Documents\\MoodAppv2\\MoodApp\\MoodApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pinkgodzilla\\Documents\\MoodAppV2\\MoodApp\\MoodApp.csproj": {
+    "C:\\Users\\Pinkgodzilla\\Documents\\MoodAppv2\\MoodApp\\MoodApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pinkgodzilla\\Documents\\MoodAppV2\\MoodApp\\MoodApp.csproj",
+        "projectUniqueName": "C:\\Users\\Pinkgodzilla\\Documents\\MoodAppv2\\MoodApp\\MoodApp.csproj",
         "projectName": "MoodApp",
-        "projectPath": "C:\\Users\\Pinkgodzilla\\Documents\\MoodAppV2\\MoodApp\\MoodApp.csproj",
+        "projectPath": "C:\\Users\\Pinkgodzilla\\Documents\\MoodAppv2\\MoodApp\\MoodApp.csproj",
         "packagesPath": "C:\\Users\\Pinkgodzilla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pinkgodzilla\\Documents\\MoodAppV2\\MoodApp\\obj\\",
+        "outputPath": "C:\\Users\\Pinkgodzilla\\Documents\\MoodAppv2\\MoodApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pinkgodzilla\\AppData\\Roaming\\NuGet\\NuGet.Config"
