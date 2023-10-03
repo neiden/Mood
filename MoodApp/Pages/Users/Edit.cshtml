@@ -13,26 +13,26 @@
     <div class="col-md-4">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="User.ID" />
+            <input type="hidden" asp-for="currUser.ID" />
             <div class="form-group">
-                <label asp-for="User.LastName" class="control-label"></label>
-                <input asp-for="User.LastName" class="form-control" />
-                <span asp-validation-for="User.LastName" class="text-danger"></span>
+                <label asp-for="currUser.LastName" class="control-label"></label>
+                <input asp-for="currUser.LastName" class="form-control" />
+                <span asp-validation-for="currUser.LastName" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="User.FirstName" class="control-label"></label>
-                <input asp-for="User.FirstName" class="form-control" />
-                <span asp-validation-for="User.FirstName" class="text-danger"></span>
+                <label asp-for="currUser.FirstName" class="control-label"></label>
+                <input asp-for="currUser.FirstName" class="form-control" />
+                <span asp-validation-for="currUser.FirstName" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="User.Birthdate" class="control-label"></label>
-                <input asp-for="User.Birthdate" class="form-control" />
-                <span asp-validation-for="User.Birthdate" class="text-danger"></span>
+                <label asp-for="currUser.Birthdate" class="control-label"></label>
+                <input asp-for="currUser.Birthdate" class="form-control" />
+                <span asp-validation-for="currUser.Birthdate" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="User.Email" class="control-label"></label>
-                <input asp-for="User.Email" class="form-control" />
-                <span asp-validation-for="User.Email" class="text-danger"></span>
+                <label asp-for="currUser.Email" class="control-label"></label>
+                <input asp-for="currUser.Email" class="form-control" />
+                <span asp-validation-for="currUser.Email" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
@@ -46,5 +46,7 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

@@ -19,7 +19,7 @@ namespace MoodApp.Pages_Users
             _context = context;
         }
 
-        public User User { get; set; }
+        public User currUser { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -35,7 +35,7 @@ namespace MoodApp.Pages_Users
             }
             else
             {
-                User = user;
+                currUser = user;
             }
             return Page();
         }

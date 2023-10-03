@@ -25,7 +25,7 @@ namespace MoodApp.Pages_Users
         }
 
         [BindProperty]
-        public User User { get; set; }
+        public User currUser { get; set; }
 
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
@@ -36,7 +36,7 @@ namespace MoodApp.Pages_Users
                 return Page();
             }
 
-            _context.Users.Add(User);
+            _context.Users.Add(currUser);
             await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");

@@ -1,0 +1,18 @@
+﻿@model MoodApp.Pages_Users._CreatePostModel
+@{
+    ViewData["Title"] = "CreatePost";
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-asp-page-handler="Data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Post.Content" class="control-label"></label>
+                <input asp-for="Post.Content" class="form-control" />
+                <span asp-validation-for="Post.Content" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Create Post</button>
+        </form>
+    </div>
+</div>

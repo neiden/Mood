@@ -32,10 +32,9 @@ namespace MoodApp.Pages
 
             _context.Users.Add(User);
             await _context.SaveChangesAsync();
+            Response.Cookies.Append("UID", User.ID + "");
 
-            //Add this newly added user's ID to cookies; might be a _context.Users.Add() method that returns a specified value
-
-            return RedirectToPage("/Account/Profile");
+            return RedirectToPage("/Home");
         }
     }
 }

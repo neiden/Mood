@@ -19,13 +19,13 @@ namespace MoodApp.Pages_Users
             _context = context;
         }
 
-        public IList<User> User { get; set; } = default!;
+        public IList<User> currUser { get; set; } = default!;
 
         public async Task OnGetAsync()
         {
             if (_context.Users != null)
             {
-                User = await _context.Users.ToListAsync();
+                currUser = await _context.Users.ToListAsync();
             }
         }
     }

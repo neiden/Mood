@@ -23,14 +23,12 @@ namespace MoodApp.Pages
             var user = await _context.Users.FirstOrDefaultAsync(m => m.Email == UserEmailAddress);
             if (user == null)
             {
-                //create a new user in DB: probably should redirect to a new screen to account creation
                 Response.Redirect("/Account/Create");
             }
             else
             {
-                //use UserEmailAddress to find corresponding User from DB, 
-                //save User.ID to cookies
-                Response.Redirect("/");
+                Response.Cookies.Append("UID", user.ID + "");
+                Response.Redirect("/Home/Home");
             }
         }
     }

@@ -12,32 +12,32 @@
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.User.LastName)
+            @Html.DisplayNameFor(model => model.currUser.LastName)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.User.LastName)
+            @Html.DisplayFor(model => model.currUser.LastName)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.User.FirstName)
+            @Html.DisplayNameFor(model => model.currUser.FirstName)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.User.FirstName)
+            @Html.DisplayFor(model => model.currUser.FirstName)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.User.Birthdate)
+            @Html.DisplayNameFor(model => model.currUser.Birthdate)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.User.Birthdate)
+            @Html.DisplayFor(model => model.currUser.Birthdate)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.User.Email)
+            @Html.DisplayNameFor(model => model.currUser.Email)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.User.Email)
+            @Html.DisplayFor(model => model.currUser.Email)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-page="./Edit" asp-route-id="@Model.User?.ID">Edit</a> |
+    <a asp-page="./Edit" asp-route-id="@Model.currUser?.ID">Edit</a> |
     <a asp-page="./Index">Back to List</a>
 </div>

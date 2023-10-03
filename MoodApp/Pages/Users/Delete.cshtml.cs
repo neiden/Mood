@@ -20,7 +20,7 @@ namespace MoodApp.Pages_Users
         }
 
         [BindProperty]
-        public User User { get; set; }
+        public User currUser { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -37,7 +37,7 @@ namespace MoodApp.Pages_Users
             }
             else
             {
-                User = user;
+                currUser = user;
             }
             return Page();
         }
@@ -52,8 +52,8 @@ namespace MoodApp.Pages_Users
 
             if (user != null)
             {
-                User = user;
-                _context.Users.Remove(User);
+                currUser = user;
+                _context.Users.Remove(currUser);
                 await _context.SaveChangesAsync();
             }
 

@@ -21,7 +21,7 @@ namespace MoodApp.Pages_Users
         }
 
         [BindProperty]
-        public User User { get; set; } = default!;
+        public User currUser { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -35,7 +35,7 @@ namespace MoodApp.Pages_Users
             {
                 return NotFound();
             }
-            User = user;
+            currUser = user;
             return Page();
         }
 
@@ -56,7 +56,7 @@ namespace MoodApp.Pages_Users
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!UserExists(User.ID))
+                if (!UserExists(currUser.ID))
                 {
                     return NotFound();
                 }
