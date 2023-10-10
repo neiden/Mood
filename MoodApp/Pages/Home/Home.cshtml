@@ -6,11 +6,57 @@
 
 
 <h1>Home Screen</h1>
-<div class="text-center" id="_createPostView">
-    @{
-        await Html.RenderPartialAsync("Users/_CreatePost", HomeModel.createPost);
-    }
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-asp-page-handler="Data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Post.Content" class="control-label"></label>
+                <input asp-for="Post.Content" class="form-control" />
+                <span asp-validation-for="Post.Content" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Create Post</button>
+        </form>
+    </div>
 </div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Posts[0].Content)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Posts[0].UserID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Posts[0].ID)
+            </th>
+            <th>@Html.DisplayNameFor(model => model.Posts[0].PostDate)
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var post in Model.Posts)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(p => post.Content)
+                </td>
+                <td>
+                    @Html.DisplayFor(p => post.UserID)
+                </td>
+                <td>
+                    @Html.DisplayFor(p => post.ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(p => post.PostDate)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
 
 
 @section Scripts {

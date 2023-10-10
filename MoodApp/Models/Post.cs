@@ -11,7 +11,5 @@ namespace MoodApp.Models
         public ICollection<Comment> Comments { get; set; }
 
 
-
-        //public ICollection<Enrollment> Enrollments { get; set; }
     }
 }

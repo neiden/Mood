@@ -34,7 +34,7 @@ namespace MoodApp.Pages
             await _context.SaveChangesAsync();
             Response.Cookies.Append("UID", User.ID + "");
 
-            return RedirectToPage("/Home");
+            return RedirectToPage("/Home/Home");
         }
     }
 }

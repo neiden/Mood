@@ -20,3 +20,58 @@
 2023-10-02 23:19:01.718 -07:00 [INF] Clicked submit button
 2023-10-02 23:19:01.724 -07:00 [INF] MoodApp.Models.Post
 2023-10-02 23:19:01.947 -07:00 [INF] Entered Home page
+2023-10-03 20:39:52.983 -07:00 [INF] Entered Home page
+2023-10-03 20:39:58.467 -07:00 [INF] Clicked submit button
+2023-10-03 20:39:58.720 -07:00 [INF] Entered Home page
+2023-10-03 20:45:06.138 -07:00 [INF] Clicked submit button
+2023-10-03 20:45:06.234 -07:00 [INF] Entered Home page
+2023-10-03 20:45:12.741 -07:00 [INF] Clicked submit button
+2023-10-03 20:45:12.754 -07:00 [INF] Entered Home page
+2023-10-03 20:47:08.217 -07:00 [INF] Entered Home page
+2023-10-03 21:08:01.367 -07:00 [INF] Entered Home page
+2023-10-03 21:09:46.478 -07:00 [INF] Entered Home page
+2023-10-03 21:10:20.454 -07:00 [INF] Entered Home page
+2023-10-03 21:10:43.720 -07:00 [INF] Entered Home page
+2023-10-03 21:10:53.031 -07:00 [INF] Clicked submit button
+2023-10-03 21:18:14.575 -07:00 [INF] Clicked submit button
+2023-10-03 21:18:26.573 -07:00 [INF] Entered Home page
+2023-10-03 21:18:35.402 -07:00 [INF] Clicked submit button
+2023-10-03 21:19:10.358 -07:00 [INF] Clicked submit button
+2023-10-03 21:19:57.121 -07:00 [INF] Clicked submit button
+2023-10-03 21:19:57.122 -07:00 [INF] Attempting to create this post: MoodApp.Models.Post
+2023-10-03 21:20:06.935 -07:00 [INF] Entered Home page
+2023-10-03 21:20:12.545 -07:00 [INF] Clicked submit button
+2023-10-03 21:20:12.545 -07:00 [INF] Attempting to create this post: MoodApp.Models.Post
+2023-10-03 21:22:07.947 -07:00 [INF] Clicked submit button
+2023-10-03 21:22:07.948 -07:00 [INF] Attempting to create this post: ID:
+2023-10-03 21:22:17.386 -07:00 [INF] Entered Home page
+2023-10-03 21:22:22.733 -07:00 [INF] Clicked submit button
+2023-10-03 21:22:22.733 -07:00 [INF] Attempting to create this post: ID:
+2023-10-03 21:23:16.975 -07:00 [INF] Clicked submit button
+2023-10-03 21:23:16.976 -07:00 [INF] Attempting to create this post: ID: 0 userID: 0 content:helloa date:10/3/2023 9:23:16 PM
+2023-10-03 21:23:24.270 -07:00 [INF] Entered Home page
+2023-10-03 21:23:27.825 -07:00 [INF] Clicked submit button
+2023-10-03 21:23:27.825 -07:00 [INF] Attempting to create this post: ID: 0 userID: 0 content:hello date:10/3/2023 9:23:27 PM
+2023-10-03 21:24:56.107 -07:00 [INF] Entered Home page
+2023-10-03 21:25:06.401 -07:00 [INF] Clicked submit button
+2023-10-03 21:25:06.409 -07:00 [INF] Attempting to create this post: ID: 0 userID: 0 content:hello date:10/3/2023 9:25:06 PM
+2023-10-03 21:25:56.082 -07:00 [INF] Entered Home page
+2023-10-03 21:26:01.535 -07:00 [INF] Clicked submit button
+2023-10-03 21:26:01.538 -07:00 [INF] Attempting to create this post: ID: 0 userID: 0 content:another one date:10/3/2023 9:26:01 PM
+2023-10-03 21:28:11.334 -07:00 [INF] Entered Home page
+2023-10-06 21:25:55.148 -07:00 [INF] Entered Home page
+2023-10-06 21:26:02.511 -07:00 [INF] Clicked submit button
+2023-10-06 21:26:02.517 -07:00 [INF] Attempting to create this post: ID: 0 userID: 0 content:ffffffffff date:10/6/2023 9:26:02 PM
+2023-10-06 21:26:33.124 -07:00 [INF] Entered Home page
+2023-10-06 21:28:24.509 -07:00 [INF] Entered Home page
+2023-10-06 21:29:28.300 -07:00 [INF] Entered Home page
+2023-10-06 21:29:32.872 -07:00 [INF] Clicked submit button
+2023-10-06 21:29:32.878 -07:00 [INF] Attempting to create this post: ID: 0 userID: 3 content:afafafafa date:10/6/2023 9:29:32 PM
+2023-10-06 21:29:33.106 -07:00 [INF] Entered Home page
+2023-10-06 21:29:53.943 -07:00 [INF] Entered Home page
+2023-10-06 21:30:08.097 -07:00 [INF] Clicked submit button
+2023-10-06 21:30:08.100 -07:00 [INF] Attempting to create this post: ID: 0 userID: 2 content:my first post :) date:10/6/2023 9:30:08 PM
+2023-10-06 21:30:08.116 -07:00 [INF] Entered Home page
+2023-10-06 21:31:48.347 -07:00 [INF] Entered Home page
+2023-10-06 22:05:40.557 -07:00 [INF] Entered Home page
+2023-10-06 22:16:05.615 -07:00 [INF] Entered Home page

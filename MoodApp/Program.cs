@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using MoodApp.Data;
+using MoodApp.Services;
 using Auth0.AspNetCore.Authentication;
 using Serilog;
 
@@ -36,7 +37,9 @@ builder.Services.AddRazorPages(options =>
     options.Conventions.AuthorizePage("/Account/Profile");
 });
 
+builder.Services.AddScoped<IPostService, PostService>();
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
